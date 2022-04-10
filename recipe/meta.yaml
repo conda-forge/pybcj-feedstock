@@ -20,7 +20,7 @@ requirements:
   host:
     - pip
     - python
-    - setuptools >=42.0
+    - setuptools >61
     - setuptools-scm >=3.5.0
   run:
     - importlib-metadata  # [py<38]
