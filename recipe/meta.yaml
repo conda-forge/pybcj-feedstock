@@ -29,7 +29,6 @@ requirements:
 test:
   imports:
     - bcj
-    - bcj.c
   commands:
     - pip check
   requires:
