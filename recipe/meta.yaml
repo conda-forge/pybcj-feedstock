@@ -1,5 +1,5 @@
 {% set name = "pybcj" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 72d64574069ffb0a800020668376b7ebd7adea159adbf4d35f8effc62f0daa67
+  sha256: 6818270692912d47e81ccd777b7d0ed2ad3a19ef7aaead3735b38048c80bf368
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
